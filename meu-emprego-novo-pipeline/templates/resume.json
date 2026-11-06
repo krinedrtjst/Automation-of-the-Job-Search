@@ -1,0 +1,144 @@
+{
+  "basics": {
+    "name": "Karine Duarte Justino",
+    "label": "Data Scientist & AI Alignment Specialist",
+    "email": "karineduartejustino@proton.me",
+    "phone": "",
+    "url": "",
+    "summary": "Data Scientist and AI Alignment Specialist leveraging a clinical neuropsychology foundation to evaluate, fine-tune, and align Large Language Models. Proven track record of architecting scalable PySpark ETL pipelines for 15TB+ multimodal datasets, deploying PyTorch models with 99.2% accuracy, and implementing rigorous RLHF rubrics that reduced dataset bias by 40%. Passionate about ensuring generative AI safety, fairness, and compliance across complex clinical and financial domains.",
+    "location": {
+      "city": "São Paulo",
+      "region": "SP",
+      "countryCode": "BR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "karinedjustino",
+        "url": "https://linkedin.com/in/karinedjustino"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "RWS Group",
+      "position": "Data Analyst for AI Models",
+      "location": "Remote",
+      "startDate": "2026-01",
+      "endDate": "2026-10",
+      "highlights": [
+        "Architected and managed PySpark ETL pipelines to process and clean 15TB+ of multimodal datasets for model training.",
+        "Fine-tuned Hugging Face Transformer models, maintaining a strict 99.2% model accuracy across deployment cycles.",
+        "Deployed PyTorch fairness algorithms and evaluation rubrics, successfully reducing dataset bias by 40%.",
+        "Collaborated with cross-functional AI teams to ensure data integrity and model compliance at scale."
+      ]
+    },
+    {
+      "name": "Stealth AI Lab & Alignerr",
+      "position": "AI Tutor and Prompt Engineer",
+      "location": "Remote",
+      "startDate": "2026-01",
+      "endDate": "2026-10",
+      "highlights": [
+        "Evaluated Large Language Model (LLM) outputs against strict Reinforcement Learning from Human Feedback (RLHF) safety rubrics.",
+        "Designed complex prompt architectures and adversarial red-teaming strategies to stress-test generative models.",
+        "Curated and annotated high-quality gold training datasets for LLM fine-tuning and behavioral alignment."
+      ]
+    },
+    {
+      "name": "Secretaria Municipal de Saúde de Nova Olímpia",
+      "position": "Data Analyst & Clinical Neuropsychologist",
+      "location": "Nova Olímpia, MT",
+      "startDate": "2020-02",
+      "endDate": "2024-08",
+      "highlights": [
+        "Managed epidemiological databases and extracted actionable public health insights for clinical stakeholders.",
+        "Automated clinical data reporting workflows using SQL and Excel VBA/Macros to improve tracking efficiency.",
+        "Applied behavioral science expertise to interpret complex patient data and optimize healthcare delivery models."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UNINTER",
+      "studyType": "Bachelor's Degree",
+      "area": "Data Science",
+      "startDate": "2024",
+      "endDate": "2027"
+    },
+    {
+      "institution": "Universidade de São Paulo (ECA-USP)",
+      "studyType": "MBA",
+      "area": "Business Intelligence based on Artificial Intelligence",
+      "startDate": "2026",
+      "endDate": "Present"
+    },
+    {
+      "institution": "Universidade Presbiteriana Mackenzie",
+      "studyType": "Postgraduate Specialization",
+      "area": "Neuropsychology and Applied Neuroscience",
+      "startDate": "2020",
+      "endDate": "2022"
+    },
+    {
+      "institution": "Universidade Federal de Mato Grosso (UFMT)",
+      "studyType": "Bachelor's Degree",
+      "area": "Psychology",
+      "startDate": "2014",
+      "endDate": "2019"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Machine Learning & AI Safety",
+      "keywords": [
+        "PyTorch",
+        "Transformers",
+        "RLHF",
+        "Prompt Engineering",
+        "AI Red-Teaming",
+        "Model Evaluation"
+      ]
+    },
+    {
+      "name": "Data Engineering & Analytics",
+      "keywords": [
+        "Python",
+        "PySpark",
+        "SQL (PostgreSQL, BigQuery)",
+        "Pandas",
+        "Power BI",
+        "Tableau"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Design Thinking",
+      "issuer": "HP LIFE / Future Tech Leaders Brasil",
+      "date": "2026-10"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced (C1)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "i.agora - Financial Health Analytics",
+      "description": "Developed a financial health analytics platform incorporating cohort segmentation, safe budget reduction algorithms, and RAG-grounded advisory workflows aligned with Central Bank Resolution No. 8 guidelines.",
+      "url": ""
+    },
+    {
+      "name": "RSNA Knee CDSS (Kaggle)",
+      "description": "Built a PyTorch and MLflow clinical decision support pipeline for MRI abnormality detection, featuring DICOM anonymization and Population Stability Index drift monitoring.",
+      "url": ""
+    }
+  ]
+}

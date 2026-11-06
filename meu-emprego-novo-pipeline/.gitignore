@@ -1,0 +1,21 @@
+# Private area: all personal data stays here and is never committed
+private/
+
+# Real resumes and documents (except inside example/)
+*.pdf
+!example/**/*.pdf
+*.docx
+*.xlsx
+
+# LaTeX compilation artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Environment
+.env
+.DS_Store
+__pycache__/
+*.pyc

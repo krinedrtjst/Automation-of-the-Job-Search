@@ -1,0 +1,30 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowCrossRegionInferenceProfiles",
+      "Effect": "Allow",
+      "Action": "bedrock:InvokeModel",
+      "Resource": [
+        "arn:aws:bedrock:us-east-1:<YOUR_AWS_ACCOUNT_ID>:inference-profile/us.anthropic.claude-3-opus-20240229-v1:0",
+        "arn:aws:bedrock:us-east-1:<YOUR_AWS_ACCOUNT_ID>:inference-profile/us.anthropic.claude-3-5-sonnet-20241022-v2:0"
+      ]
+    },
+    {
+      "Sid": "AllowFoundationModelsUnderProfile",
+      "Effect": "Allow",
+      "Action": "bedrock:InvokeModel",
+      "Resource": [
+        "arn:aws:bedrock:*::foundation-model/anthropic.claude-3-opus-20240229-v1:0",
+        "arn:aws:bedrock:*::foundation-model/anthropic.claude-3-5-sonnet-20241022-v2:0"
+      ],
+      "Condition": {
+        "ArnLike": {
+          "bedrock:InferenceProfileArn": [
+            "arn:aws:bedrock:us-east-1:<YOUR_AWS_ACCOUNT_ID>:inference-profile/us.anthropic.claude-*"
+          ]
+        }
+      }
+    }
+  ]
+}

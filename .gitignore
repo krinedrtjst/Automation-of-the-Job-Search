@@ -1,0 +1,76 @@
+# ==============================================================================
+# 1. PRIVACY & DATA SECURITY (ABSOLUTE PRIORITY)
+# Your real data (resumes, metrics, profiles) NEVER goes to git.
+# Only the fictional examples in examples/ are versioned.
+# ==============================================================================
+input/*
+data/*
+outputs/*
+private/*
+!input/.gitkeep
+!data/.gitkeep
+!outputs/.gitkeep
+!private/.gitkeep
+
+# Exclude all raw documents (except in templates/ or examples/)
+*.pdf
+*.docx
+*.xlsx
+*.csv
+!templates/**/*.csv
+!examples/**/*.pdf
+!examples/**/*.csv
+
+# ==============================================================================
+# 2. ENVIRONMENT & SECRETS
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+.venv/
+venv/
+env/
+
+# ==============================================================================
+# 3. PYTHON & CREWAI CACHES
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+trained_agents_data.pkl
+
+# ==============================================================================
+# 4. LATEX COMPILATION ARTIFACTS
+# ==============================================================================
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ==============================================================================
+# 5. OS & IDE FILES
+# ==============================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+tempCodeRunnerFile.py
+
+# ==============================================================================
+# 6. LOCAL TOOLING & TEMPORARY FILES
+# ==============================================================================
+tmp/
+temp/
+backup/
+*.bak
+*.tmp
