@@ -1,228 +1,111 @@
+@'
 {
-  "basics": {
+  "personal": {
     "name": "Karine Duarte Justino",
-    "label": "Data Scientist & AI Alignment Specialist",
     "email": "karineduartejustino@proton.me",
-    "phone": "",
-    "url": "https://linktr.ee/krine.djt",
-    "summary": "Data Scientist and AI Alignment Specialist leveraging a foundation in Neuropsychology to engineer mathematically precise and human-aligned AI systems. Expertise spans the entire generative AI value chain: from building distributed PySpark pipelines for 15TB+ multimodal datasets, to fine-tuning Transformer models (99.2% accuracy), to executing adversarial red-teaming and RLHF for frontier LLMs. Proven ability to translate complex clinical and business requirements into secure, scalable ML production workflows.",
-    "location": {
-      "city": "São Paulo",
-      "countryCode": "BR",
-      "region": "SP"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "karinedjustino",
-        "url": "https://www.linkedin.com/in/karinedjustino"
-      }
-    ]
+    "location": "São Paulo, Brazil",
+    "github": "linktr.ee/krine.djt",
+    "linkedin": "linkedin.com/in/karinedjustino"
   },
-  "work": [
-    {
-      "name": "TaskUs",
-      "position": "AI Data Specialist & Trust & Safety Evaluator",
-      "location": "São Paulo, Brazil",
-      "startDate": "2025-09",
-      "endDate": "",
-      "highlights": [
-        "Engineered complex adversarial prompt injections to stress-test Generative AI safety guardrails for the Spotify AI DJ project.",
-        "Executed high-volume Trust & Safety evaluation of multimedia content for Riot Games to filter policy-violating and toxic material.",
-        "Evaluated cross-lingual datasets in C2 English and Native Brazilian Portuguese to optimize search intent algorithms and cultural alignment."
-      ]
-    },
-    {
-      "name": "Teleperformance Global Services",
-      "position": "Bilingual Interaction Expert",
-      "location": "São Paulo, Brazil",
-      "startDate": "2025-06",
-      "endDate": "2026-04",
-      "highlights": [
-        "Managed complex customer support lifecycles and conflict mediation for the Airbnb platform in multiple languages.",
-        "Provided strategic consulting for hosts on listing optimization and pricing to ensure long-term platform success.",
-        "Moderated platform content to ensure strict adherence to safety policies and community compliance guidelines."
-      ]
-    },
-    {
-      "name": "Santander",
-      "position": "Business Process Agent III",
-      "location": "São Paulo, Brazil",
-      "startDate": "2024-12",
-      "endDate": "2025-06",
-      "highlights": [
-        "Acted as the technical-functional translator between Business, IT, and Operations for data science projects.",
-        "Mapped, analyzed, and redesigned critical business processes, driving operational efficiency gains of over 30%.",
-        "Negotiated priorities and resource allocation across multiple stakeholders while balancing financial goals and regulatory compliance."
-      ]
-    },
-    {
-      "name": "Stealth AI Lab",
-      "position": "Prompt Engineering & AI Tutor",
-      "location": "San Francisco, CA (Remote)",
-      "startDate": "2024-09",
-      "endDate": "2025-06",
-      "highlights": [
-        "Designed, tested, and refined complex prompts for LLMs (GPT-4, Llama) through rigorous failure analysis and technical feedback.",
-        "Applied structured RLHF evaluation rubrics to validate factual accuracy, safety, and tone for generative model alignment.",
-        "Curated, cleaned, and labeled diverse 'gold' datasets used as the foundation for training and fine-tuning frontier models."
-      ]
-    },
-    {
-      "name": "RWS Group",
-      "position": "Data Analyst for AI Models",
-      "location": "São Paulo, Brazil",
-      "startDate": "2024-04",
-      "endDate": "2026-09",
-      "highlights": [
-        "Built automated PySpark ETL pipelines to process and feature-engineer over 15 TB of unstructured multimodal data (text and audio).",
-        "Deployed NLP models using PyTorch, Hugging Face Transformers, and NLTK, consistently maintaining 99.2% production accuracy.",
-        "Implemented PyTorch fairness algorithms to mitigate bias in LLM training datasets, achieving a 40% reduction in measurable bias."
-      ]
-    },
-    {
-      "name": "Secretaria Municipal de Saúde de Nova Olímpia",
-      "position": "Clinical Neuropsychologist",
-      "location": "Nova Olímpia, MT, Brazil",
-      "startDate": "2021-08",
-      "endDate": "2024-08",
-      "highlights": [
-        "Managed extensive datasets from psychological assessments, implementing standardized data collection and documentation protocols.",
-        "Analyzed large clinical datasets to identify trends and actionable insights, directly informing public health strategic planning.",
-        "Produced data-driven visualizations and maintained rigorous quality monitoring in electronic health information systems."
-      ]
-    },
-    {
-      "name": "Secretaria Municipal de Saúde de Nova Olímpia",
-      "position": "Epidemiological Data Analyst",
-      "location": "Nova Olímpia, MT, Brazil",
-      "startDate": "2020-02",
-      "endDate": "2021-08",
-      "highlights": [
-        "Led the end-to-end data lifecycle (ETL) within the SINANWEB system, integrating complex epidemiological datasets.",
-        "Developed dynamic COVID-19 dashboards for daily public reporting and government decision-making during the pandemic.",
-        "Automated public resource allocation reports using Excel and VBA, significantly reducing time-to-insight for critical health interventions."
-      ]
-    },
-    {
-      "name": "Universidade Federal do Mato Grosso",
-      "position": "Human Development Analyst (Internship)",
-      "location": "Cuiabá, MT, Brazil",
-      "startDate": "2016-07",
-      "endDate": "2017-01",
-      "highlights": [
-        "Analyzed recruitment data and performance metrics, generating actionable insights to optimize talent suitability.",
-        "Administered and evaluated technical and behavioral tests, translating raw feedback into data-driven hiring recommendations."
-      ]
-    },
-    {
-      "name": "Escritório Contábil",
-      "position": "Fiscal Analyst & Administrative Assistant",
-      "location": "Nova Olímpia, MT, Brazil",
-      "startDate": "2013-09",
-      "endDate": "2014-09",
-      "highlights": [
-        "Managed the ETL cycle for large datasets related to tax calculations and financial submissions.",
-        "Performed systematic data audits and cleaning using advanced Excel to ensure compliance and support BI analysis."
-      ]
-    }
+  "languages": [
+    {"language": "Portuguese", "level": "Native"},
+    {"language": "English", "level": "Full Professional"},
+    {"language": "French", "level": "Limited Working"}
   ],
+  "skills": {
+    "programming": ["Python (Advanced)", "SQL", "PySpark", "NLTK", "PyTorch"],
+    "data_ai": ["Prompt Engineering", "AI Red-Teaming", "RLHF", "NLP", "Transformers", "Generative AI", "Chatbots"],
+    "bi_cloud": ["Cloud Pipelines", "CI/CD", "ML Governance", "Power BI"]
+  },
   "education": [
     {
-      "institution": "Universidade de São Paulo (ECA-USP)",
-      "area": "Business Intelligence",
-      "studyType": "MBA",
-      "location": "Brazil",
-      "startDate": "2024-08",
-      "endDate": "2026-12",
-      "gpa": "",
-      "courses": []
-    },
-    {
+      "degree": "Bachelor's Degree, Data Science",
       "institution": "UNINTER Centro Universitário Internacional",
-      "area": "Data Science",
-      "studyType": "Bachelor",
-      "location": "Brazil",
-      "startDate": "2025-02",
-      "endDate": "2027-12",
-      "gpa": "",
-      "courses": []
+      "start_date": "2025-02",
+      "end_date": "2027-12"
     },
     {
+      "degree": "Postgraduate Specialization, Neuroscience and Applied Psychology",
       "institution": "Universidade Presbiteriana Mackenzie",
-      "area": "Neuroscience and Applied Psychology",
-      "studyType": "Postgraduate Specialization",
-      "location": "Brazil",
-      "startDate": "2022-02",
-      "endDate": "2023-02",
-      "gpa": "",
-      "courses": []
+      "start_date": "2022-02",
+      "end_date": "2023-02"
     },
     {
-      "institution": "Universidade Federal de Mato Grosso (UFMT)",
-      "area": "Psychology",
-      "studyType": "Bachelor",
-      "location": "Brazil",
-      "startDate": "2014-01",
-      "endDate": "2021-12",
-      "gpa": "",
-      "courses": []
+      "degree": "Bachelor's Degree, Psychology",
+      "institution": "Universidade Federal de Mato Grosso",
+      "start_date": "2014",
+      "end_date": "2021"
     }
   ],
-  "skills": [
+  "experience": [
     {
-      "name": "Generative AI & NLP",
-      "keywords": ["Prompt Engineering", "AI Red-Teaming", "RLHF", "Hugging Face Transformers", "LangChain", "NLTK", "spaCy"]
+      "title": "AI Data Specialist & Trust & Safety Evaluator",
+      "company": "Spotify (via TaskUs)",
+      "start_date": "2026-10",
+      "end_date": "Present",
+      "bullets": [
+        "Engineered complex, edge-case prompt injections to stress-test Generative AI safety guardrails, identifying model vulnerabilities related to culturally nuanced audio requests.",
+        "Executed high-volume evaluation of multimedia content, enforcing strict Trust & Safety guidelines to filter policy-violating material."
+      ]
     },
     {
-      "name": "Data Engineering & ML",
-      "keywords": ["Python", "SQL", "PySpark", "PyTorch", "TensorFlow", "XGBoost", "ETL Pipelines", "MLOps (MLflow)", "Git"]
+      "title": "AI Data Specialist & Trust & Safety Evaluator",
+      "company": "Riot Games (via TaskUs)",
+      "start_date": "2025-09",
+      "end_date": "Present",
+      "bullets": [
+        "Navigated complex, cross-lingual datasets in C2 English and Native Brazilian Portuguese, evaluating user search intent and linguistic nuances to optimize algorithm accuracy."
+      ]
     },
     {
-      "name": "Data Visualization & Analytics",
-      "keywords": ["Power BI", "Tableau", "Advanced Excel (VBA)", "ARIMAX forecasting", "A/B Testing context"]
+      "title": "Data Analyst for AI Models",
+      "company": "RWS Group",
+      "start_date": "2024-04",
+      "end_date": "2026-09",
+      "bullets": [
+        "Developed and deployed NLP models using Hugging Face and PyTorch, consistently maintaining production-level accuracy metrics of 99.2%.",
+        "Led feature engineering and constructed robust automated ETL pipelines, managing volumes exceeding 15 TB of unstructured multimodal data.",
+        "Implemented Fairness algorithms in PyTorch to mitigate bias in LLM training datasets, achieving a 40% reduction."
+      ]
+    },
+    {
+      "title": "Prompt Engineering - AI Tutor",
+      "company": "Stealth AI Lab",
+      "start_date": "2024-09",
+      "end_date": "2025-06",
+      "bullets": [
+        "Iteratively refined complex prompts for LLMs and applied structured RLHF rubrics to validate factual accuracy, coherence, and safety.",
+        "Led the curation, cleaning, and management of diverse, gold-standard datasets for fine-tuning generative models."
+      ]
+    },
+    {
+      "title": "Epidemiological Data Analyst",
+      "company": "Secretaria Municipal de Saúde de Nova Olímpia",
+      "start_date": "2020-02",
+      "end_date": "2024-08",
+      "bullets": [
+        "Applied cross-disciplinary clinical expertise and data science to analyze large-scale demographic datasets, informing strategic public health policies.",
+        "Managed the end-to-end ETL data lifecycle within SINANWEB, integrating complex datasets to ensure 100% integrity of epidemiological records."
+      ]
     }
   ],
-  "certificates": [
+  "projects": [
     {
-      "name": "Generative AI",
-      "issuer": "MIT Professional Education"
+      "name": "Predictive Market Forecasting System",
+      "technologies": ["ARIMAX", "XGBoost", "Python"],
+      "description": "Built a predictive market forecasting system on 13+ years of data, reducing prediction error by 72.7% to protect portfolios from volatility."
     },
     {
-      "name": "Google Advanced Data Analytics",
-      "issuer": "Google"
-    },
-    {
-      "name": "Microsoft Power BI Desktop",
-      "issuer": "Microsoft"
-    },
-    {
-      "name": "Intro to Statistics",
-      "issuer": "Stanford"
-    },
-    {
-      "name": "Design Thinking",
-      "issuer": "HP LIFE"
+      "name": "Epidemiological Crisis Dashboard",
+      "technologies": ["ETL", "VBA", "Excel"],
+      "description": "Developed dynamic dashboards for daily public reporting during COVID-19 and automated resource allocation reports to reduce time-to-insight."
     }
   ],
-  "projects": [],
-  "languages": [
-    {
-      "language": "Portuguese",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "Full Professional (C2)"
-    },
-    {
-      "language": "French",
-      "fluency": "Limited Working"
-    },
-    {
-      "language": "Japanese",
-      "fluency": "Limited Working"
-    }
-  ],
-  "interests": []
+  "certifications": [
+    "Microsoft Power BI Desktop for Business Intelligence",
+    "Python for Data Science and Machine Learning Bootcamp",
+    "Generative AI",
+    "Inteligência Artificial Aplicada a Dados"
+  ]
 }
+'@ | Set-Content -Path "privado\perfil_mestre.json" -Encoding UTF8

@@ -1,0 +1,44 @@
+﻿\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+% Hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black
+}
+\pagestyle{empty}
+
+% Section Headers Formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge \textbf{[[NAME]]}} \\ \vspace{6pt}
+    [[LOCATION]] \textbar{} \href{mailto:[[EMAIL]]}{[[EMAIL]]} \textbar{} \href{https://[[GITHUB]]}{[[GITHUB]]} \textbar{} \href{https://[[LINKEDIN]]}{[[LINKEDIN]]}
+\end{center}
+
+\section*{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt, parsep=0pt, topsep=0pt]
+    \item \textbf{Data \& AI:} [[SKILLS_AI]]
+    \item \textbf{BI \& Cloud:} [[SKILLS_BI]]
+    \item \textbf{Programming:} [[SKILLS_PROG]]
+\end{itemize}
+
+\section*{Professional Experience}
+[[EXPERIENCE_BLOCK]]
+
+\section*{Education}
+[[EDUCATION_BLOCK]]
+
+\section*{Key Projects}
+[[PROJECTS_BLOCK]]
+
+\end{document}
